@@ -1,0 +1,15 @@
+{
+  "name": "mb-example",
+  "version": "1.0.0",
+  "description": "Example for mountebank",
+  "main": "index.js",
+  "repository": "https://github.com/kratuwu/mb-example.git",
+  "author": "Krittawat Suphankomut <kratuwu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mountebank": "^2.1.2"
+  },
+  "scripts": {
+    "start:dev": "mb"
+  }
+}
