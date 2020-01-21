@@ -10,6 +10,6 @@
     "mountebank": "^2.1.2"
   },
   "scripts": {
-    "start:dev": "mb"
+    "start:dev": "mb --configfile imposters.ejs --allowInjection"
   }
 }
