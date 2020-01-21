@@ -9,7 +9,7 @@ yarn install
 ```
 ## Start
 ```sh
-yarn start:dev
+yarn start:local
 ```
 
 ## Structure
