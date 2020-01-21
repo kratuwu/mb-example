@@ -10,6 +10,8 @@
     "mountebank": "^2.1.2"
   },
   "scripts": {
-    "start:dev": "mb --configfile imposters.ejs --allowInjection"
+    "start": "mb --configfile imposters.ejs --allowInjection",
+    "start:local": "yarn start --loglevel debug",
+    "start:deploy": "yarn start"
   }
 }
